@@ -12,7 +12,7 @@
 </head>
 <body>
 
-Hello ${msg}!
+Hello ${test1} ${test2}!!
  
 <spring:url value="/resources/core/css/hello.js" var="coreJs" />
 <script src="${coreJs}"></script>
